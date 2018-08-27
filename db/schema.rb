@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180823210029) do
+ActiveRecord::Schema.define(version: 20180827202301) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 20180823210029) do
     t.date "journal_entry_date"
     t.time "journal_entry_time"
     t.text "content"
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_journal_entries_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -42,4 +44,5 @@ ActiveRecord::Schema.define(version: 20180823210029) do
   end
 
   add_foreign_key "examples", "users"
+  add_foreign_key "journal_entries", "users"
 end
