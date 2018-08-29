@@ -2,5 +2,5 @@
 
 class JournalEntry < ApplicationRecord
   belongs_to :user
-  validates :content, :created_at, :user, presence: true
+  validates :journal_entry_content, :user, presence: true
 end
