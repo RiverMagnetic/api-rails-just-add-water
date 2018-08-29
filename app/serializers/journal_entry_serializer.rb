@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ItemSerializer < ActiveModel::Serializer
-  attributes :id, :created_at, :content
+class JournalEntrySerializer < ActiveModel::Serializer
+  attributes :id, :created_at, :journal_entry_content
   belongs_to :user
 end
