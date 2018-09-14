@@ -21,5 +21,5 @@ This is a custom API I built using Ruby, Rails, and PostgreSQL.
 
 ## Development Process
 
-I began working on this API by creating a [very simple ERD for the MVP]().
+I began working on this API by creating [a very simple ERD for the MVP](https://github.com/RiverMagnetic/api-rails-just-add-water/blob/master/just-add-water-original-erd.jpg).
 
