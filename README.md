@@ -13,6 +13,8 @@ In future iterations users will also be able to set goals and note their progres
 
 * [Client Repo](https://github.com/RiverMagnetic/client-just-add-water)
 
+* [ERD](https://github.com/RiverMagnetic/api-rails-just-add-water/blob/master/just-add-water-original-erd.jpg) for the MVP
+
 
 ## Technologies Used
 
@@ -21,5 +23,7 @@ This is a custom API I built using Ruby, Rails, and PostgreSQL.
 
 ## Development Process
 
-I began working on this API by creating [a very simple ERD for the MVP](https://github.com/RiverMagnetic/api-rails-just-add-water/blob/master/just-add-water-original-erd.jpg).
+I created tools to guide my development process, inculding an ERD, Wireframes, User Stories, and a Front-End Mock-Up. After the creating the mock-up I built the back end and tested the CRUD actions with curl scripts. Finally I added functionality and further styling to my Front End and linked it to the API I built.
+
+When I ran into issues, I posted on the issue queue, and reached out to instructors and my growing network of more experienced software engineers.
 
