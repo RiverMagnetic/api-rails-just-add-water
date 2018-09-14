@@ -23,9 +23,9 @@ This is a custom API I built using Ruby, Rails, and PostgreSQL.
 
 ## Development Process
 
-I created tools to guide my development process, inculding an ERD, Wireframes, User Stories, and a Front-End Mock-Up. After the creating the mock-up I built the back end and tested the CRUD actions with curl scripts. Finally I added functionality and further styling to my Front End and linked it to the API I built.
+I created tools to guide my development process, including an ERD, Wireframes, User Stories, and a Front-End Mock-Up. After the creating the mock-up I built the back end and tested the CRUD actions with curl scripts. Finally I added functionality and further styling to my Front End and linked it to the API I built.
 
-In building the back-end I read more rails doumentation than I had in the past and increased my knowledge. When I ran into issues, I posted on the issue queue, looked through past lessons and closed issues, Googled, and reached out to instructors and my growing network of more experienced software engineers.
+In building the back-end I increased my knowledge of ruby on rails by reading more of the documentation than I had in the past. When I ran into issues, I posted on the issue queue, looked through past lessons and closed issues, Googled, and reached out to instructors and my growing network of more experienced software engineers.
 
 
 ## Routes
