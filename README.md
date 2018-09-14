@@ -27,3 +27,18 @@ I created tools to guide my development process, inculding an ERD, Wireframes, U
 
 In building the back-end I read more rails doumentation than I had in the past and increased my knowledge. When I ran into issues, I posted on the issue queue, looked through past lessons and closed issues, Googled, and reached out to instructors and my growing network of more experienced software engineers.
 
+
+## Routes
+
+In the current iteration, here are the routes the API expects:
+
+| Request Type   | Path                   | Controller#Action |
+|----------------|------------------------|-------------------|
+| POST           | `/sign-up`             | `users#signup`    |
+| POST           | `/sign-in`             | `users#signin`    |
+| DELETE         | `/sign-out`            | `users#signout`   |
+| PATCH          | `/change-password`     | `users#changepw`  |
+| GET            | `/items`               | `items#index`     |
+| POST           | `/items`               | `items#create`    |
+| PATCH          | `/items/:id`           | `items#update`    |
+| DELETE         | `/items/:id`           | `items#destroy`   |
