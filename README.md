@@ -12,3 +12,14 @@ In future iterations users will also be able to set goals and note their progres
 * [Deployed Client](https://rivermagnetic.github.io/client-just-add-water/)
 
 * [Client Repo](https://github.com/RiverMagnetic/client-just-add-water)
+
+
+## Technologies Used
+
+This is a custom API I built using Ruby, Rails, and PostgreSQL.
+
+
+## Development Process
+
+I began working on this API by creating a [very simple ERD for the MVP]().
+
